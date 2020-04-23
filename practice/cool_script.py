@@ -1,11 +1,11 @@
 from time import sleep
 # This is an awesome script that does many things
 user = input("Please type your name and press enter: ")
-
+sleep_time = input("specify delay in seconds: ")
 print(f"Hello, dear {user}")
-sleep(3)
+sleep(sleep_time)
 print("Prepare yourself to be amazed!!")
-sleep(3)
+sleep(sleep_time)
 print("Here it goes!!!")
-sleep(3)
-pint("Tadaaaa!")
+sleep(sleep_time)
+print("Tadaaaa!")
