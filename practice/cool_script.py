@@ -1,3 +1,4 @@
+from __future__ import print_function
 from time import sleep
 # This is an awesome script that does many things
 user = input("Please type your name and press enter: ")
